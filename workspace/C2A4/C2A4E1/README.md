@@ -5,7 +5,7 @@ NOTICE how the entire 4-D array is passed to the function
 
 void ComputeAverages(float set[][D1][D2][D3],float *nestedAvg, float *linearAvg)
 {
-// SLOW METHOD
+    // SLOW METHOD
     float AverageTotal = 0.0;
     float LinCounter = 0.0;
     for ( int index0=0; index0 < D0; ++index0)
