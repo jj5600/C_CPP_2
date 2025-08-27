@@ -1,7 +1,8 @@
 This is an important section on passing and manipulating Arrays to differnt functions:
 
 Some key details: 
-NOTICE how the entire 4-D array is passed to the function 
+NOTICE how the entire 4-D array is passed to the function
+
 void ComputeAverages(float set[][D1][D2][D3],float *nestedAvg, float *linearAvg)
 {
 // SLOW METHOD
