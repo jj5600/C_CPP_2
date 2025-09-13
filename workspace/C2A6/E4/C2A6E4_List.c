@@ -37,7 +37,7 @@ List *CreateList(FILE *fp)
     bool foundMatch = false;
     // this for loop keeps getting lines until there are no more lines to get
     // this simple while loop works
-    
+// while loop works perfectly as is: please see other solution for alternative
 while (fscanf(fp, "%255s", buffer) != EOF)
     //for(temp = fgets(buffer,sizeof(buffer),fp); temp != NULL; temp = fgets(buffer,sizeof(buffer),fp))
     //while (fgets(buffer, sizeof(buffer), fp) != NULL) // attempt 3
